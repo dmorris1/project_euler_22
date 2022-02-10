@@ -1,6 +1,5 @@
 names = []
 with open("names.txt", "r") as file:
-    #Create into an array
     for line in file:
         names.append(list(line.split(",")))
 names = names [0]
